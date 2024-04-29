@@ -23,3 +23,65 @@ let isLoggeding = true // Boolean
 
 console.log(typeof null); //shows type of variable or value
 console.log(typeof undefined);
+
+//javaScript is dynamically typed language
+
+// ******Primitive (call by value)*****
+// are call by value
+//7 types
+// String
+// Number
+// Blooean
+// Null
+// Undefined
+// BigInt
+// Symbol
+
+
+// Number
+const score = 100
+const ScoreValue = 100.3
+
+//Boolean
+const isLoggeing =false
+
+// Null
+const outsideTemp = null
+
+// Undefined
+let userEmail;
+
+//String
+const namee ="Chakru"
+
+//Symbol
+const id = Symbol('1233')
+const anotherId = Symbol('1233')
+console.log(id === anotherId);
+
+//BigInt
+const bigNumber = 123213131231212336278638726n
+
+
+
+//*** Reference(Non Primitive) */
+// Array , Object, Functions
+
+
+//Array
+const heros = ["Hulk","doga","thor"]
+
+//Object
+let myobj =
+{
+    nameee:"chakru",
+    age:22,
+}
+
+//function
+const myFunction = function(){
+    console.log("Hello world");
+}
+
+
+

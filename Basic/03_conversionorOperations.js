@@ -89,3 +89,12 @@ gameScore++;
 
 console.log(gameScore);
 
+//Conversion of datatype and its result
+
+
+//undefiend => undefined
+//Null => Object
+// Boolean => Boolean
+// Number => Number
+//string => String
+//Symbol => symbbol
